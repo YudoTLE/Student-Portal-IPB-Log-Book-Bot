@@ -75,12 +75,6 @@ driver.get('https://studentportal.ipb.ac.id/Kegiatan/AktivitasKampusMerdeka/inde
 input('Press enter if you have moved to your designated activity!')
 
 for data in all_data:
-    data['lecturer'] = 'endang'
-    data['mentoring'] = 'Offline'
-    data['activity'] = 'Ujian'
-    data['description'] = '-'
-
-for data in all_data:
     get_element(By.XPATH, "//a[contains(@class, 'btn') and starts-with(@onclick, 'OpenModal')]").click()
 
     time.sleep(1)
