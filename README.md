@@ -57,7 +57,7 @@ Column headers should be prefixed with `#` followed by the field name (e.g., `#d
 1. Launch the script by running:
 
    ```bash
-   python script.py
+   python main.py
    ```
 
 2. Log in to the Student Portal:
