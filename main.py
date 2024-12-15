@@ -75,7 +75,7 @@ driver.get('https://studentportal.ipb.ac.id/Kegiatan/AktivitasKampusMerdeka/inde
 input('Press enter if you have moved to your designated activity!')
 
 for data in all_data:
-    time.sleep(2)
+    time.sleep(5)
 
     get_element(By.XPATH, "//a[contains(@class, 'btn') and starts-with(@onclick, 'OpenModal')]").click()
 
