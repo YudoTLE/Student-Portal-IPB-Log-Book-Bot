@@ -1,6 +1,6 @@
 {
     "EXCEL_FILE": "input.xlsx",
-    "SHEET_NAME": "sheetname",
+    "SHEET_NAME": "sample",
     "USERNAME": "username",
     "PASSWORD": "password"
 }
